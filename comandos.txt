@@ -1,13 +1,16 @@
 1) git init
 2) nano git-nuestro.md
 3) git add git-nuestro.md
-4) git commit -m “git-nuestro added” git push
+4) git commit -m “git-nuestro added” 
+git push
 5) git checkout -b styled
 6) git branch
 7) git checkout styled
-8) Listamos las ramas con git branch y tiene que aparecer la rama “styled” subrayada
+8) Listamos las ramas con git branch y tiene que aparecer la rama "styled" subrayada
 9) nano git-nuestro.md
-10) git add git-nuestro.md git commit -m “git-nuestro modified” git push
+10) git add git-nuestro.md 
+git commit -m "git-nuestro modified"
+git push
 11) git reset --hard HEAD~1
 12) git pull
 13) git merge master
@@ -15,8 +18,13 @@
 15) git checkout -b htmlify
 16) git checkout htmlify
 17) nano git-nuestro.md
-18) git add git-nuestro.md git commit -m “git-nuestro modified”
-19) git checkout styled git merge htmlify
-20) nano git-nuestro.md (editamos el fichero en conflicto quedándonos con el contenido de la rama styled) git add git-nuestro.md git merge --continue
-21) git checkout master git merge styled
+18) git add git-nuestro.md 
+git commit -m “git-nuestro modified”
+19) git checkout styled 
+git merge htmlify
+20) nano git-nuestro.md (editamos el fichero en conflicto quedándonos con el contenido de la rama styled) 
+git add git-nuestro.md 
+git merge --continue
+21) git checkout master 
+git merge styled
 22) git checkout -b title
